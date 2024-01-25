@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "q-random-walk"
+version = "0.1.0"
+description = ""
+authors = ["Erik Weilandt <erik.weilandt+git@gmail.com>"]
+readme = "README.md"
+packages = [{include = "q_random_walk"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
